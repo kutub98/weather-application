@@ -53,3 +53,25 @@ export default tseslint.config({
 })
 ```
 # weather-application
+
+This Weather Dashboard is a React-based weather application that allows users to:
+
+1. View Weather: Get real-time weather data for multiple cities.
+2. Current Location: Automatically fetch weather based on geolocation.
+3. Add/Remove Cities: Search and manage favorite cities for quick access.
+4. Unit Toggle: Switch between Celsius (°C) and Fahrenheit (°F).
+5. API Integration: Uses OpenWeather API (with API key stored securely in .env).
+
+for this application i used
+framwork: React
+Css: Tailwind
+Api: I used Openweathe API for showing weather;
+ Tech Stack: React, Vite, Tailwind CSS, OpenWeather API.
+
+How it's will work?
+1. Enter a city name in the search bar.
+2. Click or search button  the  to add it to the list.
+3️. Toggle between °C and °F for temperature conversion.
+4️. Remove cities anytime with the delete button.
+
+This project is simple, responsive, and beginner-friendly. Perfect for learning API integration in React
