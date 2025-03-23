@@ -163,15 +163,13 @@ const App = () => {
               ))}
             </div>
                   )}
-                  <button onClick={toggleUnit} className="bg-gray-600 px-2 py-1 text-[12px] rounded-md">
-  {unit === "metric" ? "Switch to °F" : "Switch to °C"}
-</button>
+                  
           <button onClick={() => addCity(search)} className="bg-blue-600 p-3 rounded-md">
             <FaSearch />
           </button>
-          <button onClick={toggleUnit} className="bg-gray-600 p-3 rounded-md">
-            <FaSyncAlt />
-          </button>
+          <button onClick={toggleUnit} className="bg-gray-600 flex flex-row items-center px-2 py-1 text-[12px] rounded-md">
+  {unit === "metric" ? "Switch to °F" : "Switch to °C"}
+</button>
         </div>
 
         {loading && <p>Loading weather data...</p>}
