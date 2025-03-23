@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { FaSearch, FaTrash, FaSyncAlt } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";
 
-const API_KEY = "4b40a85afeb26c8092ce4299cb4c4995"; // Replace with your API Key
+const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
 
 const App = () => {
   // Convert Celsius to Fahrenheit
