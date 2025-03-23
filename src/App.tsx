@@ -352,7 +352,7 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-r from-blue-500 to-blue-800 p-6 text-white">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl font-bold text-center mb-6">Weather Dashboard</h1>
+        <h1 className="text-4xl font-bold text-center mb-6">Weather Application</h1>
 
         {currentLocationWeather && (
           <div className="bg-white/20 p-6 rounded-lg shadow-lg mb-6">
